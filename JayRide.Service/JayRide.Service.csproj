@@ -10,8 +10,4 @@
     <ProjectReference Include="..\JayRide.DTO\JayRide.DTO.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="NewFolder\" />
-  </ItemGroup>
-
 </Project>

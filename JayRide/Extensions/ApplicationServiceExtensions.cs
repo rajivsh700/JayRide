@@ -12,6 +12,7 @@ namespace JayRide.Extensions
         {
             services.AddScoped<ICandidateRepository, CandidateRepository>();
             services.AddScoped<ILocationService, LocationService>();
+            services.AddScoped<IListingService, ListingService>();
             return services;
         }
      }
