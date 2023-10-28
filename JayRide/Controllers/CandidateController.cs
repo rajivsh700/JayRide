@@ -14,10 +14,15 @@ namespace JayRide.Controllers
         {
             _candidateRepository = candidateRepository;
         }
+
         [HttpGet]
         public IActionResult GetCandidate()
         {
             var result = _candidateRepository.GetCandidate();
+            if (result == null)
+            {
+                return NotFound();
+            }
             return Ok(result);
         }
     }

@@ -17,6 +17,5 @@ namespace JayRide.Controllers
 
             return BadRequest(result.Error);
         }
-
     }
 }
